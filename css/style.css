@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 
+:root {
+  --buttom-size: 30px;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   display: flex;
@@ -10,14 +14,89 @@ body {
 }
 
 .container {
+  box-sizing: border-box;
+  padding: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   height: 100vh;
   overflow: hidden;
   text-align: center;
 }
+.container > * {
+  margin: 5px 0px;
+}
 
 #logo {
-  object-fit: cover;
+  object-fit: contain;
   height: 20vh;
+}
+
+#pomodoro-app {
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: darkolivegreen;
+  width: 50vw;
+  height: 230px;
+  padding: 10px 0px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#pomodoro-app > * {
+  margin: 5px 0px;
+}
+
+#app-settings {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+#app-clock {
+  border-radius: 10px;
+  width: 80%;
+  height: 60%;
+  background-color: lightseagreen;
+}
+
+.time-icon {
+  width: var(--buttom-size);
+  height: var(--buttom-size);
+  border-radius: 4px;
+}
+
+#focus-icon {
+  background-color: darkgreen;
+}
+
+#relax-icon {
+  background-color: yellow;
+}
+
+input {
+  font: inherit;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 0;
+  width: 25%;
+  text-align: center;
+}
+
+button#clock-starter {
+  background-color: maroon;
+  color: white;
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font: 30px "Montserrat", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 footer {
