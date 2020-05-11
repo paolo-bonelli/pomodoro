@@ -4,7 +4,7 @@
   "description": "An easy and safe pomodoro App to use",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/enzo-bv/pomodoro/issues"
   },
-  "homepage": "https://github.com/enzo-bv/pomodoro#readme"
+  "homepage": "https://github.com/enzo-bv/pomodoro#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
