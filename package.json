@@ -1,0 +1,24 @@
+{
+  "name": "pomodoro-app",
+  "version": "0.0.1",
+  "description": "An easy and safe pomodoro App to use",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzo-bv/pomodoro.git"
+  },
+  "keywords": [
+    "pomodoro",
+    "app",
+    "online"
+  ],
+  "author": "Vincenzo Bonelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enzo-bv/pomodoro/issues"
+  },
+  "homepage": "https://github.com/enzo-bv/pomodoro#readme"
+}
