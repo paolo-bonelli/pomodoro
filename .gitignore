@@ -2,3 +2,4 @@
 *.psd
 /build/
 /gh-pages/
+*.code-workspace
