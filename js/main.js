@@ -18,4 +18,10 @@ settingButtoms.forEach((btn) => {
     console.log(btn);
     btn.classList.toggle("active");
   }
+  btn.addEventListener("click", (e) => {
+    if (!e.target.classList.contains("active")) {
+      e.path[1].querySelector(".active").classList.toggle("active");
+      e.target.classList.add("active");
+    }
+  });
 });

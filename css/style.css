@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Mono:wght@100&display=swap");
 
 :root {
   --buttom-size: 30px;
@@ -34,6 +34,7 @@ body {
 }
 
 #pomodoro-app {
+  font-family: "Roboto Mono", monospace;
   box-sizing: border-box;
   border-radius: 20px;
   background-color: darkolivegreen;
@@ -67,14 +68,16 @@ body {
   width: var(--buttom-size);
   height: var(--buttom-size);
   border-radius: 4px;
+  background-color: lightgrey;
+  background-size: contain;
 }
 
 #focus-icon {
-  background-color: darkgreen;
+  background-image: url("https://image.flaticon.com/icons/svg/2799/2799178.svg");
 }
 
 #relax-icon {
-  background-color: yellow;
+  background-image: url("https://image.flaticon.com/icons/svg/1510/1510877.svg");
 }
 
 input {
@@ -101,6 +104,7 @@ button#clock-starter {
 
 .active {
   filter: drop-shadow(0px 0px 4px white);
+  background-color: white;
 }
 
 footer {
